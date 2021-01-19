@@ -15,8 +15,16 @@ const cats = [
 //question 1
 const cat = {
     complain: function () {
-        console.log("Meow!")
+        console.log("Meow!");
     }
 }
 
 cat.complain();
+
+//question 2
+const heading = document.querySelector("h3");
+
+heading.innerHTML = "Updated heading";
+
+//question 3
+heading.style.fontSize = "2em"
