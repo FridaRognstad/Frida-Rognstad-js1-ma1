@@ -1,17 +1,3 @@
-const cats = [
-    {
-        name: "Blob",
-        age: 10
-    },
-    {
-        name: "Harold",
-    },
-    {
-        name: "Blurt",
-        age: 21
-    }
-];
-
 //question 1
 const cat = {
     complain: function () {
@@ -47,3 +33,27 @@ resultsContainer.innerHTML = `<p>New paragraph</p>`;
 resultsContainer.style.backgroundColor = "yellow";
 
 //question 7
+const cats = [
+    {
+        name: "Blob",
+        age: 10
+    },
+    {
+        name: "Harold",
+    },
+    {
+        name: "Blurt",
+        age: 21
+    }
+];
+
+
+function listName(list) {
+    for(let i = 0; i < list.length; i++)
+
+    console.log(list[i].name)
+}
+
+listName(cats)
+
+//question 8
