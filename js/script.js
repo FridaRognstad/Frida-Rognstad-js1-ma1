@@ -58,7 +58,7 @@ listName(cats)
 
 //question 8
 function createCats(cats) {
-    let html = "";
+    let HTML = "";
 
     for (let i = 0; i < cats.length; i++){
 
@@ -68,12 +68,15 @@ function createCats(cats) {
         catsAge = cats[i].age;
     }
 
-    html += `<div><h5>${cats[i].name}</h5></div>
-    <div><p>${catsAge}</p></div>
-    `;
+    HTML += `<div>
+    <h5>${cats[i].name}</h5>
+    </div>
+    <div>
+    <p>${catsAge}</p>
+    </div>`;
     }
 
-    return html;
+    return HTML;
 }
 
 const newHTML = createCats(cats);
